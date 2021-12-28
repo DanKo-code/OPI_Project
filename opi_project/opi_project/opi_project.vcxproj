@@ -141,10 +141,18 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="equations.cpp" />
+    <ClCompile Include="matric.cpp" />
+    <ClCompile Include="Operations_hard.cpp" />
+    <ClCompile Include="Operations_on_numbers.cpp" />
+    <ClCompile Include="Operation_middle.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="equations.h" />
+    <ClInclude Include="matric.h" />
+    <ClInclude Include="operations_hard.h" />
+    <ClInclude Include="operations_middle.h" />
+    <ClInclude Include="operations_on_numbers.h" />
     <ClInclude Include="vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

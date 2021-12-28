@@ -1,0 +1,49 @@
+﻿Сборка начата 28.12.2021 14:03:48.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\opi_project.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\opi_project.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp matric.cpp Operations_hard.cpp Operations_on_numbers.cpp Operation_middle.cpp
+         main.cpp
+         matric.cpp
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\matric.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Operations_hard.cpp
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_hard.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_hard.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+         Operations_on_numbers.cpp
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_on_numbers.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_on_numbers.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+         Operation_middle.cpp
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operation_middle.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operation_middle.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\Debug\opi_project.exe" /INCREMENTAL /ILK:"Debug\opi_project.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\Debug\opi_project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\Debug\opi_project.lib" /MACHINE:X86 Debug\main.obj
+         Debug\equations.obj
+         Debug\matric.obj
+         Debug\Operations_hard.obj
+         Debug\Operations_on_numbers.obj
+         Debug\Operation_middle.obj
+         Debug\vector.obj
+         opi_project.vcxproj -> C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\Debug\opi_project.exe
+       FinalizeBuildStatus:
+         Файл "Debug\opi_project.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\opi_project.tlog\opi_project.lastbuildstate".
+     1>Сборка проекта "C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\opi_project.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\opi_project.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\matric.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_hard.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_hard.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_on_numbers.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operations_on_numbers.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operation_middle.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\ROG\Desktop\Новая папка\OPI_Project\opi_project\opi_project\Operation_middle.cpp(19,34): warning C4101: answer_from_user: неиспользованная локальная переменная
+
+    Предупреждений: 7
+    Ошибок: 0
+
+Прошло времени 00:00:02.92
