@@ -1,2 +1,3 @@
 # OPI_Project
-OPI_Project v 1.0
+This is our team project
+Members: Козляковский Данила и Пшенко Артем 
