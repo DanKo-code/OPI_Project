@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    min-width: 1000px;
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial';
+    font-size: x-large;
+}
+
+.hov:hover {
+ transform: scale(2.3);
+ translate: bottom(200px);
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 250px auto 20px;
+    grid-template-rows: 80px auto auto;
+    align-self: center;
+}
+
+header {
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    border-bottom: 5px solid #3f3f3f;
+    padding: 0 7px;
+    background-color: rgb(148, 144, 144);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    overflow: hidden;
+    z-index: 1;
+}
+
+img#logo {
+    margin-left: 15px;
+    vertical-align: middle;
+    height: 95%;
+}
+
+p#header {
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+    font-family: 'Lucida Console';
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-left: 20px;
+    border-right: 5px solid #3f3f3f;
+    padding: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: large;
+}
+
+nav ul {
+    position: sticky;
+    top: 110px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgba(2, 158, 255, 0.795);
+    text-decoration: underline;
+}
+
+#about-project,
+#project-team,
+#product-backlog,
+#diagrams,
+#test-cases,
+#project-history {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+section {
+    padding: 0 20px 20px 20px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+article {
+    margin: 30px;
+}
+
+article p {
+    text-indent: 25px;
+}
+
+hr {
+    border-style: solid none none none;
+    border-top: 3px solid #666666;
+}
+
+#project-aims {
+    margin-left: -15px;
+    list-style-position: outside;
+}
+
+#project-aims li {
+    padding-top: 7px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+p#start-data {
+    margin-bottom: -15px;
+}
+
+#project-team ol {
+    list-style-position: outside;
+}
+
+#project-team ol>li {
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#project-team ol ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+#project-team ol ul>li {
+    margin-left: -20px;
+    border-left: 5px solid rgb(78, 187, 255);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(141, 0, 0);
+}
+
+#project-team ol ul>li.in-process {
+    border-left-color: orange;
+    color: orange;
+}
+
+#product-backlog table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+#product-backlog .subject {
+    max-width: 120px;
+    text-align: center;
+}
+
+#product-backlog #ID {
+    min-width: 80px;
+    text-align: center;
+}
+
+#product-backlog th,
+td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 25px;
+}
+
+#product-backlog th {
+    background-color: rgb(162, 195, 255);
+    color: rgb(0, 0, 0);
+}
+
+#product-backlog td.done {
+    background-color: rgba(96, 226, 96, 0.986);
+}
+
+#product-backlog td.in-process {
+    background-color: darkorange;
+}
+
+#diagrams td {
+    border-style: none;
+}
+
+#diagrams figcaption {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+#diagrams img {
+    width: 425px;
+    margin: 10px 0;
+}
+
+#diagrams #main-diagram img {
+    width: 980px;
+    margin-bottom: -50px;
+}
+
+#test-cases table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+#test-cases th,
+td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    line-height: 25px;
+}
+
+#test-cases th {
+    background-color: rgb(162, 195, 255);
+    color: rgb(0, 0, 0);
+}
+
+#test-cases tr:first-child th {
+    background-color: rgb(148, 144, 144);
+    color: rgb(0, 0, 0);
+}
+
+#test-cases td {
+    vertical-align: top;
+}
+
+#test-cases td.good-test {
+    background-color: rgba(96, 226, 96, 0.986);
+}
+
+#test-cases td.bad-test {
+    background-color: rgb(247, 119, 119);
+}
+
+#project-history table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+#project-history th,
+td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#project-history th {
+    background-color: cornflowerblue;
+    color: lightyellow;
+}
+
+footer {
+    border-top: 5px solid #222222;
+    padding: 20px;
+    background-color: #333333;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
